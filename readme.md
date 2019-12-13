@@ -1,3 +1,4 @@
+WIP, this is my starter for creating forms
 # add form with binding 
 `<input type="text" [(ngModel)]="productName">`
 `<div>{{ productName }}</div>`
