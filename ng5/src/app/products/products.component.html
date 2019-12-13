@@ -1,5 +1,4 @@
 <p>products works!</p>
-
 <!-- 
 <input type="text" [(ngModel)]="productName" id="productName">
 <input type="text" [(ngModel)]="productComment" id="productComment">
@@ -18,14 +17,11 @@
     <button type="submit">Add</button>
   </form>
 
-
 <hr>
 <!-- this is testing local product -->
     <ol><li *ngFor="let product of products">{{product}}</li>
     </ol>
-
 <!-- this was moved to app-list -->
 <!-- <hr><app-product *ngFor="let product of products" [products]="product"></app-product> -->
-
 <hr>
 <app-list></app-list>
